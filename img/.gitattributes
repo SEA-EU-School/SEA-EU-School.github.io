@@ -2,3 +2,4 @@ Split_view.jpg filter=lfs diff=lfs merge=lfs -text
 dormitory.jpg filter=lfs diff=lfs merge=lfs -text
 Split_tower_view.jpg filter=lfs diff=lfs merge=lfs -text
 palace_atrio.jpg filter=lfs diff=lfs merge=lfs -text
+Split_tower_view_ribbons.png filter=lfs diff=lfs merge=lfs -text
