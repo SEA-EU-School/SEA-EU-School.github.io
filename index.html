@@ -10,9 +10,13 @@
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
+}
+h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
 }
 .myParagraph {
   margin: 64;
@@ -30,8 +34,8 @@ h1, h2, h3, h4, h5, h6 {
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#overview" class="w3-bar-item w3-button "><i class="fa fa-info-circle">&nbsp;</i>Overview</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-gear">&nbsp;</i>Courses</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user">&nbsp;</i>Lectures</a>
+      <a href="#courses" class="w3-bar-item w3-button"><i class="fa fa-gear">&nbsp;</i>Courses</a>
+      <a href="#lectures" class="w3-bar-item w3-button"><i class="fa fa-user">&nbsp;</i>Lectures</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-th">&nbsp;</i>Schedule</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope">&nbsp;</i> Contact</a>
     </div>
@@ -117,24 +121,55 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 
 <!-- Courses -->
-<div class="w3-container" style="padding:64px 64px" id="courses">
-  <div class="w3-row-padding">
-    <div class="w3-col m8">  <!-- 8/12 horizontal size --> 
-      <h3>Courses</h3>
-      <p>This school is aimed at young students looking to acquire skills on the most trending
-techniques in mathematical and computational modeling. We place a strong empha-
-sis in practical applications in science and engineering, with a focus on modeling
-spatiotemporal variations of physical quantities using partial differential equations
-(PDEs). And related topics such as numerical optimization, playing a vital role today
-in fields like deep learning.
-<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
-    </div>
-    <div class="w3-col m4">  <!-- 4/12 horizontal size -->  
-      <img class="w3-image w3-round-large" src="https://media.githubusercontent.com/media/SEA-EU-School/SEA-EU-School.github.io/main/img/palace_atrio.jpg" alt="Buildings" width="700" height="394">
-    </div>
-  </div>
+<div class="w3-container" style="padding:32px 32px" id="courses">
+  <h2 id="courses">Courses</h2>
+
+  <h6 id="course-1.-introduction-to-partial-differential-equations-examples-and-numerical-resolution-by-the-finite-element-method"><b>Course 1</b>. Introduction to partial differential equations: examples and numerical resolution by the finite element method</h6>
+  <p><em>Organizer &amp; Speaker:</em> <strong>Francisco Ortegón Gallego</strong> (Universidad de Cádiz)</p>
+  <p><em>Classroom time:</em> <strong></strong> 10 hours</p>
+  <p><em>Topics:</em> <strong></strong></p>
+  <ol>
+    <li>Basic notions: differential operators and integral identities.</li>
+    <li>Some PDEs arising in physics and engineering.</li>
+    <li>Variational formulation. Functional spaces. The finite element method.</li>
+    <li>Introduction fo <code>Freefem++</code>: numerical resolution of PDEs.</li>
+    <li>Working on a 3D problem: 3D tetrahedralization, resolution and post-processing.</li>
+  </ol>
+
+  <img class="w3-image w3-round-large" 
+       src="https://media.githubusercontent.com/media/SEA-EU-School/SEA-EU-School.github.io/main/img/palace_atrio.jpg" 
+       style="float:right; width:30%; margin-left:15px; margin-bottom:15px"
+       alt="Overview">
+
+  <hr/>
+  <h6 id="course-2.-physics-informed-neural-networks-introduction-and-case-study-on-fluid-dynamics"><b>Course 2</b>. Physics-informed neural networks: introduction and case study on fluid dynamics</h6>
+  <p><em>Organizers &amp; Speakers:</em> <strong>J. Rafael Rodríguez Galván, M. Victoria Redondo Neble</strong> (Universidad de Cádiz)</p>
+  <p><em>Classroom time:</em> <strong></strong> 10 hours</p>
+  <p><em>Topics:</em> <strong></strong></p>
+  <ol>
+    <li>Introduction and mathematical foundations of neural networks (NN). Fundamentals, architectures, activation and loss functions, differentiation and chain rule for functions of several variables</li>
+    <li>Training and optimization in NN. Backpropagation, optimization algorithms</li>
+    <li>Computational aspects and software libraries. Significance of hardware acceleration and parallelization for efficient training</li>
+    <li>A perspective on neural networks for PDE models: physics informed neural networks (PINN). PINN software libraries. Modeling diffusion and convection for linear and non-linear processes</li>
+    <li>Governing equations in fluid dynamics. The finite element method (FEM) for approximating non-turbulent flows</li>
+    <li>PINN in fluid dynamics: comparing to FEM, exploring the pros and cons in a challenging case with applications to real-world scenarios</li>
+  </ol>
+
+  <hr/>
+  <h6 id="course-3.-numerical-optimization"><b>Course 3</b>. Numerical optimization</h6>
+  <p><em>Organizer &amp; Speaker:</em> <strong>Malte Braack</strong> (University of Kiel)</p>
+  <p><em>Classroom time:</em> <strong></strong> 6 hours lectures, 4 hours exercises</p>
+  <p><em>Topics:</em> <strong></strong></p>
+  <ol>
+    <li>Numerical methods for unrestricted optimization: Newton, steepest decent, Armijo step length control</li>
+    <li>Restricted Optimization Problems: equality and inequality constraints, types of restricted optimization problems</li>
+    <li>Sequential Unrestricted Minimization Technique (SUMT): penalty method, SUMT for equality constraints, SUMT for inequality constraints</li>
+    <li>Stationary points for Restricted Optimization Problems: first-order necessary condition, active sets, linearized tangential cones, Abadie constraint qualification, Lagrange function, Karush-Kuhn-Tucker (KKT) system, Farkas lemma</li>
+    <li>Convex optimization and Slater condition: convex constraints, relation between Slater condition and KKT</li>
+    <li>Numerical methods based on Karush-Kuhn-Tucker system: Lagrange-Newton for restricted optimization, Sequential Quadratic Programing (SQP)</li>
+  </ol>
+
+  <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>Register</a></p>
 </div>
 
 
