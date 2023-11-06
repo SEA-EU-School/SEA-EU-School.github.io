@@ -6,3 +6,4 @@ Split_tower_view_ribbons.png filter=lfs diff=lfs merge=lfs -text
 Split_tower_view_ribbons.xcf filter=lfs diff=lfs merge=lfs -text
 Sphinx_Dioclecian.jpg filter=lfs diff=lfs merge=lfs -text
 HGildo.png filter=lfs diff=lfs merge=lfs -text
+palace_atrio.xcf filter=lfs diff=lfs merge=lfs -text
