@@ -1,0 +1,588 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={SEA-EU School on Computational Mathematics},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{SEA-EU School on Computational Mathematics}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{myNavbar}{}
+\protect\hyperlink{home}{SEA-EU School on Computational Mathematics} {
+\protect\hyperlink{overview}{{\emph{~}Overview}}
+\protect\hyperlink{courses}{{\emph{~}Courses}}
+\protect\hyperlink{lectures}{{\emph{~}Lectures}}
+\protect\hyperlink{schedule}{{\emph{~}Schedule}}
+\protect\hyperlink{registration}{{\emph{~}Registration}}
+\protect\hyperlink{contact}{{\emph{~} Contact}} }
+\href{javascript:void(0)}{\emph{}}
+
+\href{javascript:void(0)}{Close ×}
+\protect\hyperlink{overview}{Overview} \protect\hyperlink{work}{Courses}
+\protect\hyperlink{team}{Lectures} \protect\hyperlink{pricing}{Scedule}
+\protect\hyperlink{contact}{Contact}
+
+\includegraphics[width=16.66667in,height=8.33333in]{img/Split_tower_view_ribbons.png}
+
+\hypertarget{dive-into-mathematical-and-computational-modeling}{%
+\paragraph{Dive into mathematical and computational
+modeling}\label{dive-into-mathematical-and-computational-modeling}}
+
+\emph{}
+
+Oriented to Master, PhD students and young researchers in Mathematics,
+Science or Engineering.
+
+\emph{}
+
+Erasmus Blended Intensive Program:\\
+
+Sept. 2024:
+
+2-6 Sept (online),\\
+9-13 (Split, Croatia).
+
+\emph{}
+
+Prerequisites: Mathematics and computer programming skills.
+
+\emph{}
+
+3 courses \& 5 lectures in a friendly environment for enjoying
+computational mathematics and applications.
+
+\hypertarget{overview}{}
+\includegraphics{img/Vestibule_julia.jpg}
+
+\hypertarget{overview}{%
+\subsubsection{Overview}\label{overview}}
+
+This school is aimed at young students looking to acquire skills on the
+\textbf{most trending techniques in mathematical and computational
+modeling}. We place a strong emphasis in practical applications in
+science and engineering, with a focus on modeling spatiotemporal
+variations of physical quantities using partial differential equations
+(PDEs). And related topics such as numerical optimization, playing a
+vital role today in fields like deep learning.
+
+The school is structured into \textbf{three courses}. Two of them cover
+the widely used finite element method (FEM) and other emerging
+techniques such as physically informed neural networks (PINN) for
+computing numerical solutions of PDEs. A third course focus on numerical
+methods for constrained and unconstrained optimization. In these
+courses, we introduce fundamental math structures, provide illustrative
+examples, review algorithms, program them with high-level open-source
+tools, and post-process the solutions for high-quality plotting.
+
+The necessary mathematical and computer skills will be standardized in
+introductory online sessions, with the entire learning process overseen
+by expert professors in the field. The courses are complemented by
+\textbf{five conferences} where lecturers related to SEA-EU universities
+introduce recent research projects related to the subjects of the
+School.
+
+Methodology
+
+The school begins with a phase dedicated to homogenizing the students'
+knowledge to help them reach a basic level before the classroom courses
+begin to develop in Split. It will be designed as \textbf{5 online days}
+where students will be able to access material specifically prepared for
+them to acquire basic math and computer skills. During these days they
+will have the support and tutoring of the curses instructors, through
+video meetings and forums in a virtual campus.
+
+In a \textbf{second week}, the School will be held physically on the
+premises of the \textbf{University of Split}. It will consist on three
+courses where theoretical lectures will be given by the professor and
+numerous examples, algorithms and exercises will be reviewed. In
+computer classes, students will be provided with the necessary software
+to implement them and analyze the results. The courses will be
+complemented with conferences where invited professors will stimulate
+the curiosity of the students, showing recent research topics related
+with the matter.
+
+After the end of the classroom days in Split, the students interested in
+evaluation to be recognized up to three credits, will deliver a final
+work in small groups related to the school topics. For this, they will
+be assisted by a final tutoring session.
+
+Credit Recognition
+
+Some students might be interested to be recognized for up to three
+credits. For that we have foreseen an evaluation process, which will be
+based on daily attendance to the school and a small group work. It will
+be related to the school topics and will be delivered after the end of
+the classroom sessions.
+
+\includegraphics{img/dormitory-blowup.jpg}
+
+Travel and Accommodation
+
+The city of Split, Croatia, is served by an international airport which
+is located approximately 20 km from the city center of Split, on the
+west side of Kaštela Bay. Regular taxis at Split Airport are available
+during the airport operation times, being the average cab fare to the
+center of Split about 30€. Other options for travelling include Shuttle
+Bus (Pleso Prijevoz) and Local Bus, with respective costs of 6€. and
+2.5€.
+
+The School will provide students with up to 20 places in the university
+residence located on the university campus, a 5-minute walk from the
+faculty of science, where the activities will take place. Breakfast and
+lunch are included.
+
+Erasmus Funding
+
+Up to 20 Students coming from a EU Member State or third country
+associated to the Erasmus+ program can apply for funding through Blended
+Intensive Program (BIP). This will allow them to get support to attend
+the classroom week in Split.
+
+\protect\hyperlink{work}{\emph{~}Registration}
+
+\hypertarget{courses}{%
+\subsection{Courses}\label{courses}}
+
+\textbf{Course 1}. Introduction to partial differential equations:
+examples and numerical resolution by the finite element method
+
+\emph{Organizer \& Speaker:} \textbf{Francisco Ortegón Gallego}
+(Universidad de Cádiz)
+
+\emph{Classroom time:} \textbf{} 10 hours
+
+\emph{Topics:} \textbf{}
+
+\begin{enumerate}
+\tightlist
+\item
+  Basic notions: differential operators and integral identities.
+\item
+  Some PDEs arising in physics and engineering.
+\item
+  Variational formulation. Functional spaces. The finite element method.
+\item
+  Introduction fo \texttt{Freefem++}: numerical resolution of PDEs.
+\item
+  Working on a 3D problem: 3D tetrahedralization, resolution and
+  post-processing.
+\end{enumerate}
+
+\includegraphics{img/palace_atrio.jpg}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Course 2}. Physics-informed neural networks: introduction and
+case study on fluid dynamics
+
+\emph{Organizers \& Speakers:} \textbf{J. Rafael Rodríguez Galván, M.
+Victoria Redondo Neble} (Universidad de Cádiz)
+
+\emph{Classroom time:} \textbf{} 10 hours
+
+\emph{Topics:} \textbf{}
+
+\begin{enumerate}
+\tightlist
+\item
+  Introduction and mathematical foundations of neural networks (NN).
+  Fundamentals, architectures, activation and loss functions,
+  differentiation and chain rule for functions of several variables
+\item
+  Training and optimization in NN. Backpropagation, optimization
+  algorithms
+\item
+  Computational aspects and software libraries. Significance of hardware
+  acceleration and parallelization for efficient training
+\item
+  A perspective on neural networks for PDE models: physics informed
+  neural networks (PINN). PINN software libraries. Modeling diffusion
+  and convection for linear and non-linear processes
+\item
+  Governing equations in fluid dynamics. The finite element method (FEM)
+  for approximating non-turbulent flows
+\item
+  PINN in fluid dynamics: comparing to FEM, exploring the pros and cons
+  in a challenging case with applications to real-world scenarios
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Course 3}. Numerical optimization
+
+\emph{Organizer \& Speaker:} \textbf{Malte Braack} (University of Kiel)
+
+\emph{Classroom time:} \textbf{} 6 hours lectures, 4 hours exercises
+
+\emph{Topics:} \textbf{}
+
+\begin{enumerate}
+\tightlist
+\item
+  Numerical methods for unrestricted optimization: Newton, steepest
+  decent, Armijo step length control
+\item
+  Restricted Optimization Problems: equality and inequality constraints,
+  types of restricted optimization problems
+\item
+  Sequential Unrestricted Minimization Technique (SUMT): penalty method,
+  SUMT for equality constraints, SUMT for inequality constraints
+\item
+  Stationary points for Restricted Optimization Problems: first-order
+  necessary condition, active sets, linearized tangential cones, Abadie
+  constraint qualification, Lagrange function, Karush-Kuhn-Tucker (KKT)
+  system, Farkas lemma
+\item
+  Convex optimization and Slater condition: convex constraints, relation
+  between Slater condition and KKT
+\item
+  Numerical methods based on Karush-Kuhn-Tucker system: Lagrange-Newton
+  for restricted optimization, Sequential Quadratic Programing (SQP)
+\end{enumerate}
+
+\hypertarget{lectures}{}
+\includegraphics{img/Sphinx_Dioclecian.jpg}
+
+\hypertarget{lectures}{%
+\subsection{Lectures}\label{lectures}}
+
+\textbf{Lecture 1}. Saša Krešić-Jurić (University of Split, Croatia)
+
+\emph{Introduction to Symplectic Methods for Hamiltonian Systems}
+
+Hamilton's equations describe the time evolution of a mechanical system
+defined on a symplectic manifold. Such systems have a wide range of
+applications from celestial mechanics, rigid body motion to molecular
+dynamics.
+
+When discretizing Hamilton's equations, one wishes to preserve the
+geometric properties important for qualitative behavior of the system.
+In this talk we give a short introduction to symplectic integrators for
+Hamiltonian systems based on preservation of the symplectic form under
+the flow of a Hamiltonian vector field. We discuss the symplectic Euler
+and Stromer-Verlet algorithms as well as composition methods for
+symplectic maps. We show that these algorithms outperform standard
+methods in terms of accuracy and stability for long time integrations.
+These methods are illustrated with several interesting examples from
+physics.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Lecture 2}. Hermenegildo Borges de Oliveira (University of
+Algarve, Portugal)
+
+\emph{Theoretical and numerical analysis of Navier-Stokes equations
+arising in fluid confinement}
+
+In this lecture, we consider the incompressible Navier-Stokes equations
+with the forcing term assumed to be (non-linearly) dependent on the
+velocity field. Some applications of this problem will be shown. For the
+considered problem, we characterize feedback forces fields that are able
+of confining the fluid flow. We use the Continuous/Discontinuous Finite
+Element Method with interior penalty terms to solve the resulting
+nonlinear fourth-order problem. For the associated continuous and
+discrete problems, we prove the existence of weak solutions and
+establish the conditions for their uniqueness. Consistency, stability,
+and convergence of the numerical method are also shown analytically. To
+validate the numerical model regarding its applicability and robustness,
+several test cases are carried out.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Lecture 3}. Karolina Kropielnicka (IM PAS, Poland)
+
+\emph{Split in Split}
+
+Splitting methods are well established and widely used techniques for
+finding approximate solutions of linear DEs of the form
+\emph{u'=(A+B)u}. They can be also used for the case of time dependent
+component \emph{B(t)}.
+
+In this lecture I will give a short introduction to this subject on the
+example of celebrated Strang splitting for possibly time dependant
+component. I will show, that surpassingly it can be derived from Duhamel
+(Variation-of-Constant) formula. Based on this approach I will present a
+new proof of convergence of this scheme and elaborate on the
+possibilities brought by this approach.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Lecture 4}. Andrijana Curkovic (University of Split, Croatia)
+
+\emph{Introduction to Asymptotic Methods in Fluid Mechanics}
+
+The application of asymptotic analysis to partial differential equations
+is presented using the example of a fluid flow through a thin pipe that
+is heated. The expansion of the pipe is considered and the small system
+parameters are the expansion coefficient of the pipe and the radius of
+the circular pipe.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Lecture 5}. M. Conepción Muriel Patino (University of Cádiz,
+Spain)
+
+\emph{Solvable Structures and C-infinity Structures for Differential
+Equations}
+
+We present some new integration methods for ordinary differential
+equations, based on the existence of
+\includegraphics{img/Conchi_html_989b7876ff8a151.gif}-structures, a
+recent generalization of the concept of solvable structure. Both notions
+are established in the more general context of the integrability of
+involutive distributions \emph{Z} of vector fields.
+
+Several illustrative examples show how both objects (solvable structures
+and \includegraphics{img/Conchi_html_989b7876ff8a151.gif}-structures)
+can be found and used in practice to obtain exact solutions for problems
+modelled by ordinary differential equations.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{team}{}
+\hypertarget{lecturers-and-organizers}{%
+\subsection{Lecturers and organizers}\label{lecturers-and-organizers}}
+
+\hfill\break
+
+% \includegraphics{https://produccioncientifica.uca.es/img/uploaded/DB772852C75DDC61A7DD0916CB7C1792.jpg}
+
+Francisco Ortegón Gallego
+
+Universidad de Cádiz, Spain
+
+% \includegraphics{https://produccioncientifica.uca.es/img/uploaded/A1520884E59249A40BDA0799956F143E.jpg}
+
+J. Rafael Rodríguez Galván
+
+Universidad de Cádiz, Spain
+
+% \includegraphics{https://produccioncientifica.uca.es/img/uploaded/15235392317FA096335E3C2B4CB66126.jpg}
+
+M. Victoria Redondo Neble
+
+Universidad de Cádiz, Spain
+
+% \includegraphics{https://media.githubusercontent.com/media/SEA-EU-School/SEA-EU-School.github.io/main/img/MBraack.jpeg}
+
+Malte Braack
+
+Kiel University, Germany
+
+\hfill\break
+
+% \includegraphics{https://mapmf.pmfst.unist.hr/~skresic/Sasa_2.jpg}
+
+Saša Krešić-Jurić
+
+University of Split, Croatia
+
+% \includegraphics{https://media.githubusercontent.com/media/SEA-EU-School/SEA-EU-School.github.io/main/img/HGildo.png}
+
+Hermenegildo Borges de Oliveira
+
+Universidade do Algarve and CMAFcIO, Portugal
+
+% \includegraphics{https://mat.ug.edu.pl/~kmalina/karo/karolina11.png}
+
+Karolina Kropielnicka
+
+Institute of Mathematics of the Polish Academy of Sciences
+
+% \includegraphics{https://produccioncientifica.uca.es/img/uploaded/807E73F92075E45A662CEC34CDF40F09.jpg}
+
+Maria Concepcion Muriel Patino
+
+Universidad de Cádiz, Spain
+
+\hfill\break
+
+~
+
+% \includegraphics{https://media.githubusercontent.com/media/SEA-EU-School/SEA-EU-School.github.io/main/img/Andrijana.jpg}
+
+Andrijana Curkovic
+
+University of Split, Croatia
+
+% \includegraphics{https://scholar.google.de/citations/images/avatar_scholar_128.png}
+
+Marcin Marciniak
+
+Uniwersytet Gdańsk, Poland
+
+{=~5}\\
+Universities from the SEA-EU alliance
+
+{=~4~+~5}\\
+Speakers in courses + lectures
+
+{=~5~+~5}\\
+Online + face-to-face days
+
+{≥~20}\\
+Tutored hours of computer practice exercises
+
+\hypertarget{schedule}{%
+\subsection{Schedule}\label{schedule}}
+
+\hypertarget{schedule-for-online-introduction}{%
+\subparagraph{Online Introduction Week (September 2-6
+2024)}\label{schedule-for-online-introduction}}
+
+\begin{itemize}
+\item
+  \textbf{Monday 2}, 9:00h. Opening (video conference). Introduction to
+  Course 1 (video conference).\\
+  10:00h \emph{Francisco Ortegón Gallego}. Individual work, tutored in
+  forums on the virtual campus
+\item
+  \textbf{Tuesday 3}, 9:00h. Introduction to Course 2 (video
+  conference). \emph{J. Rafael Rodríguez Galván \& M. Victoria Redondo
+  Neble}. Individual work, tutored in forums on the virtual campus
+\item
+  \textbf{Wednesday 4}, 9:00h. Introduction to Course 3 (video
+  conference). \emph{Malte Braack}. Individual work, tutored in forums
+  on the virtual campus
+\item
+  \textbf{Thursday 5} and \textbf{Wednesday 6}. Guided exercises.
+\end{itemize}
+
+\hypertarget{schedule-for-classroom-sessions}{%
+\subparagraph{Schedule for Classroom Sessions (September 9-13
+2024)}\label{schedule-for-classroom-sessions}}
+
+\includegraphics{img/schedule.png}
+
+\hypertarget{schedule-for-evaluation}{%
+\subparagraph{Schedule for Evaluation}\label{schedule-for-evaluation}}
+
+Those students interested in evaluation, for credits recognition, must
+submit a final project before Friday, 20th September, 2024. may be done
+individually or in small groups.
+
+\hypertarget{modal01}{}
+{×}
+
+\hypertarget{topics}{%
+\subsection{Topics}\label{topics}}
+
+An insight of mathematical and computational tools for simulation of
+models from Science and Engineering, specifically those which are
+written as PDE.
+
+With a first course on the finite element method (FEM) for numerical
+approximation of PDE, a second one on Artificial Intelligence for
+learning solutions to PDE, in particular by delving into physically
+informed neural networks (PINN), and a third course on numerical methods
+for constrained and unconstrained optimization.
+
+\emph{}Computer Simulation of PDE Models
+
+70\%
+
+\emph{}Artifical Intelligence
+
+33\%
+
+\emph{}Numerical optimization
+
+33\%
+
+\hypertarget{registration}{%
+\subsection{Registration}\label{registration}}
+
+Registration for the school will be activated shortly.
+
+\hypertarget{contact}{%
+\subsection{Contact}\label{contact}}
+
+\hypertarget{to-do-design-this-section}{%
+\subparagraph{\texorpdfstring{\textbf{TO-DO: design this
+section}}{TO-DO: design this section}}\label{to-do-design-this-section}}
+
+\emph{} Split, Croatia
+
+\emph{} Phone: +00 151515
+
+\emph{} Email: mail@mail.com
+
+\hfill\break
+
+\emph{}~Send Message
+
+\includegraphics{img/Split_view.jpg}
+
+\emph{See you in Split!}
+
+\protect\hyperlink{home}{\emph{}To the top}
+
+\emph{} \emph{} \emph{} \emph{}
+
+Powered by \href{https://www.w3schools.com/w3css/default.asp}{w3.css}
+All the images are licensed under
+\href{https://commons.wikimedia.org/wiki/Category:CC-BY-SA-4.0}{CC-BY-SA-4}
+license. All of them are © J. Rafael Rodríguez Galván exepting
+\emph{Vestibule} and \emph{Sphinx} in \emph{Diocletian's Palace}, which
+are derived from images by Goran Leš and Adam Jones
+(\href{https://commons.wikimedia.org}{Wikimedia}).
+
+\end{document}
